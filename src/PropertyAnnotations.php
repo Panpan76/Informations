@@ -10,6 +10,8 @@ class PropertyAnnotations extends Annotations{
   private $form_displayName;
   private $form_inputName;
   private $form_type;
+  private $form_value;
+  private $form_values;
 
   // DataBase
   private $dataBase_fieldName;
@@ -28,6 +30,10 @@ class PropertyAnnotations extends Annotations{
   public function getFormInputName(){ return $this->form_inputName; }
   public function setFormType($form_type){ $this->form_type = $form_type; }
   public function getFormType(){ return $this->form_type; }
+  public function setFormValue($form_value){ $this->form_value = $form_value; }
+  public function getFormValue(){ return $this->form_value; }
+  public function setFormValues($form_values){ $this->form_values = $form_values; }
+  public function getFormValues(){ return $this->form_values; }
 
 
   // DataBase
