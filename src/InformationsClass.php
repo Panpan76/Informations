@@ -139,4 +139,30 @@ class InformationsClass{
     self::$isClassAnnotationsInit = true;
     self::$classAnnotationsClass = $classAnnotationsClass;
   }
+
+
+
+
+  public function getProperties(){
+    return $this->properties;
+  }
+  public function getMethods(){
+    return $this->methods;
+  }
+
+  public function getNamespace(){
+    return $this->namespace;
+  }
+  public function getName(){
+    return $this->name;
+  }
+  public function getParent(){
+    return $this->parent;
+  }
+  public function getInterfaces(){
+    return $this->interfaces;
+  }
+  public function getClass(){
+    return $this->class;
+  }
 }
