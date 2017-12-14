@@ -1,0 +1,17 @@
+{
+    "name": "panpan76/informations",
+    "autoload": {
+        "psr-4": {
+            "Informations\\": "src/"
+        }
+    },
+    "require": {
+        "php": "7.*"
+    },
+    "authors": [
+        {
+            "name": "Panpan76",
+            "email": "cedric.moclyn@hotmail.fr"
+        }
+    ]
+}
